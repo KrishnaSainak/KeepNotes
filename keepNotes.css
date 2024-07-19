@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.direction {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-heading {
+    color: #f5d505;
+    font-family: Lucida;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column
+}
+
+.sign-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 5px;
+    margin: 20px;
+}
+
+.side-heading {
+    color: #f5d505;
+    font-weight: bold;
+}
+
+.input-heading {
+    color: #f5d505;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.user-input {
+    border-width: 0px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.note {
+    width: 300px;
+    color: #a1a0a0;
+    overflow-wrap: break-word;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.deleteNote {
+    float: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 23px;
+    background-color: #292a2d;
+    border-radius: 25px;
+    margin: 10px;
+    align-self: center;
+    justify-content: center;
+}
+
+#input-box {
+    border: 1px solid black;
+    padding: 23px;
+}
+
+.title-heading {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+}
+
+button {
+    background: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+}
+
+#notes {
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
